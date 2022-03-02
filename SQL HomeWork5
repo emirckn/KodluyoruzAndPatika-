@@ -1,4 +1,4 @@
-** -- 1)film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız. **
+-- 1)film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız. 
 	SELECT * FROM film
 	WHERE title ILIKE '%n'
 	ORDER BY length DESC
@@ -14,4 +14,3 @@
 	WHERE store_id=1
 	ORDER BY last_name DESC
 	LIMIT 4;
-	
